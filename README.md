@@ -42,7 +42,7 @@ text## Requirements
 Install dependencies:Bashpip install -r requirements.txt
 Launch Jupyter Notebook:Bashjupyter notebook
 
-Dataset
+## Dataset
 
 Records: 1,367 unique customers
 Key Variables:
@@ -54,7 +54,7 @@ Average Amount & Commission per Transaction
 
 Nature: Aggregated transactional data (no individual raw transactions included)
 
-Key Results
+## Key Results
 
 One-time Buyers: 782 customers (57.2%) → Contribute only 5.1% of total commission
 Repeat Buyers: 585 customers (42.8%) → Generate 94.9% of total commission
@@ -63,7 +63,7 @@ Top 10% of customers (136 accounts) drive 73.6% of commission revenue
 Ultra-High-Value Segment: 22 customers (>300 commission) average 127.6 transactions each and contribute 26.6% of total commission
 Frequency Insight: High-commission customers show dramatically higher average purchase frequency (up to 140+ transactions)
 
-Running the Analysis
+## Running the Analysis
 
 Open Customer_Commission_Analysis.ipynb in Jupyter
 Run cells sequentially
@@ -76,7 +76,7 @@ Repeat vs One-time Segmentation
 Visualizations & Business Insights
 
 
-Strategic Takeaways
+## Strategic Takeaways
 This analysis clearly demonstrates that customer loyalty and repeat purchase frequency are the primary drivers of commission revenue.
 The business exhibits strong Pareto dynamics — a small, highly engaged customer segment accounts for the majority of value.
 Recommended Focus Areas:
@@ -86,7 +86,7 @@ Converting one-time buyers into repeat customers
 Increasing purchase frequency among mid-tier customers
 Reducing revenue concentration risk through targeted retention strategies
 
-Next Steps & Extensions
+## Next Steps & Extensions
 
 Full RFM (Recency, Frequency, Monetary) scoring
 Customer lifetime value (CLV) modeling
@@ -94,7 +94,7 @@ Cohort analysis and retention curves
 Predictive modeling for repeat purchase probability
 Dashboard development (Streamlit / Power BI)
 
-Technologies Used
+## Technologies Used
 
 Python
 pandas & NumPy
